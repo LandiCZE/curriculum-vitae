@@ -15,7 +15,8 @@ header {
 
 #toggle-menu {
   display: none;
-  @media (max-width: 720px){
+
+  @media (max-width: 720px) {
     display: block;
   }
 }
@@ -25,7 +26,8 @@ nav {
   justify-content: center;
   background-color: #333;
   padding: 10px 0;
-  @media (max-width: 720px){
+
+  @media (max-width: 720px) {
     flex-direction: column;
   }
 }
@@ -47,7 +49,8 @@ nav a:hover {
 }
 
 ul {
-  list-style-type: none; /* Remove bullets from all unordered lists */
+  list-style-type: none;
+  /* Remove bullets from all unordered lists */
   text-align: center;
 }
 
@@ -64,7 +67,8 @@ section {
   padding: 40px;
   background-color: #fff;
   border-radius: 8px;
-  margin: 20px 0; /* Adjusted margin */
+  margin: 20px 0;
+  /* Adjusted margin */
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -88,8 +92,10 @@ footer {
 }
 
 .profile-photo {
-  width: 180px; /* Adjusted width */
-  height: 180px; /* Adjusted height */
+  width: 180px;
+  /* Adjusted width */
+  height: 180px;
+  /* Adjusted height */
   border-radius: 50%;
   margin-bottom: 20px;
   object-fit: cover;
@@ -115,8 +121,10 @@ footer {
 }
 
 .university-image {
-  width: 120px; /* Adjusted width for larger images */
-  height: 120px; /* Adjusted height for larger images */
+  width: 120px;
+  /* Adjusted width for larger images */
+  height: 120px;
+  /* Adjusted height for larger images */
   border-radius: 8px;
   margin-left: 20px;
   object-fit: cover;
@@ -124,7 +132,8 @@ footer {
 
 .sports-photo {
   width: 100%;
-  max-width: 400px; /* Adjust the max-width as needed */
+  max-width: 400px;
+  /* Adjust the max-width as needed */
   height: auto;
   border-radius: 8px;
   margin: 20px 0;
@@ -133,7 +142,8 @@ footer {
 
 .d-print {
   width: 100%;
-  max-width: 400px; /* Adjust the max-width as needed */
+  max-width: 400px;
+  /* Adjust the max-width as needed */
   height: auto;
   border-radius: 8px;
   margin: 20px 0;
@@ -142,7 +152,8 @@ footer {
 
 .friends-image {
   width: 100%;
-  max-width: 400px; /* Adjust the max-width as needed */
+  max-width: 400px;
+  /* Adjust the max-width as needed */
   height: auto;
   border-radius: 8px;
   margin: 20px 0;
@@ -151,7 +162,8 @@ footer {
 
 .work-image {
   width: 100%;
-  max-width: 800px; /* Adjust the max-width as needed */
+  max-width: 800px;
+  /* Adjust the max-width as needed */
   height: auto;
   border-radius: 8px;
   margin: 20px 0;
@@ -217,13 +229,15 @@ footer {
 }
 
 .column {
-  flex: 1 1 calc(33.333% - 20px); /* Adjust the width and margin as needed */
+  flex: 1 1 calc(33.333% - 20px);
+  /* Adjust the width and margin as needed */
   margin: 10px;
 }
 
 h3 {
   color: #007bff;
 }
+
 .project {
   margin-bottom: 20px;
 }
@@ -235,7 +249,8 @@ h3 {
 }
 
 .project {
-  flex: 0 0 48%; /* Adjust the width as needed */
+  flex: 0 0 48%;
+  /* Adjust the width as needed */
 }
 
 #freetime-activities {
@@ -245,11 +260,14 @@ h3 {
 
 .university-image {
   width: 100%;
-  max-width: 60%; /* Ensure images don't exceed their container */
-  height: auto; /* Adjusted to maintain aspect ratio */
+  max-width: 60%;
+  /* Ensure images don't exceed their container */
+  height: auto;
+  /* Adjusted to maintain aspect ratio */
   border-radius: 8px;
   object-fit: cover;
-  margin-bottom: 20px; /* Add some bottom margin for spacing */
+  margin-bottom: 20px;
+  /* Add some bottom margin for spacing */
 }
 
 .section {
@@ -260,8 +278,10 @@ h3 {
 
 .grid-container {
   display: grid;
-  grid-template-columns: 1fr 1fr; /* Adjust the columns as needed */
-  gap: 20px; /* Adjust the gap between columns */
+  grid-template-columns: 1fr 1fr;
+  /* Adjust the columns as needed */
+  gap: 20px;
+  /* Adjust the gap between columns */
 }
 
 #skills {
